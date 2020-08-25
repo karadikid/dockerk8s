@@ -8,3 +8,4 @@ before_install:
 
 scripts:
     - docker run -e CI=true frontend_web npm run test -- -- coverage
+    
